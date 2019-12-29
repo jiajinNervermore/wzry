@@ -1,0 +1,21 @@
+body{
+    background-color: #F5F5F5;
+}
+.font_small{
+    font:0.8rem ºÚÌå;
+}
+.my_header,.my_footer{
+    width:100%;
+    margin-top: 5px;
+}
+@media (min-width: 992px) {
+    .my_header{height:6rem;}
+    .my_footer{height:20rem;}
+}
+
+@media (max-width: 991px) {
+    .my_header{height:12rem;}
+    .my_footer{height:44rem;}
+}
+
+
