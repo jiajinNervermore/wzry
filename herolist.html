@@ -1,18 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="author" content="Tencent-CP">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="Copyright" content="Copyright (c) 2006-2015 TENCENT" />
+    <meta name="description" content="王者荣耀英雄介绍,全部英雄大全,英雄属性，英雄图片,英雄技能定位，英雄故事，英雄图文视频攻略，助您荣登最强王者宝座!" />
+    <meta name="keywords" content="王者荣耀英雄,王者荣耀英雄介绍,王者荣耀英雄大全,王者荣耀英雄资料" />
+    <meta name="applicable-device" content="pc">
+    <link rel="alternate" href="https://pvp.qq.com/m/m201706/heroList.shtml">
+    <title>英雄资料列表页-英雄介绍-王者荣耀官方网站-腾讯游戏</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/comm.css">
+    <style>
+        *{margin:0;}
+        .header{
+            height: 600px;
+            background: url("../image/img/home/718331022121853.jpg");
+            background-repeat: no-repeat;
+            background-position: -300px 0;
+            position: relative;
+        }
+        a,a:hover{
+            text-decoration: none;
+            color: #464646;
+            font-size: 14px;
+            line-height: 40px;
+        }
+        .nav:hover{
+
+        }
+        .nav .nav-item{
+            box-sizing: border-box;!important;
+
+        }
+        .nav_head{
+            height: 84px;
+            background: transparent;!important;
+            background-image:linear-gradient(to right,#000,#323235);
+        }
+        .headers>ul{
+            margin:0;!important;
+        }
+        .nav-item:first-child{
+            margin-left: 50px;
+        }
+        .nav-item{
+            margin-right: 10px;
+        }
+        .nav-item .nav-link{
+            font-size: 18px;
+            color: #c9c9dd;
+            margin-bottom: -5px;
+        }
+        .nav-item  p{
+            text-align: center;
+            font-size: 12px;
+            color: #858792;
+            margin-bottom: 10px;
+        }
+        .nav-item:hover{
+            border-bottom: 5px solid #fd7e14;
+            background-image:linear-gradient(to bottom,#aaa, #d39e00) ;
+            background: transparent;
+        }
+        .row{
+            margin-top:84px;
+            height:400px;
+            float: left;
+            display: none;
+            position: absolute;
+            top:84px;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
+<div class="header">
+<div class="nav_head justify-content-around">
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href=""><img src="../image/img/home/logo1.png" alt=""/></a></li>
+        <li class="nav-item">
+            <a class="nav-link" href="">官网首页</a>
+            <p class="">HOME</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">游戏资料</a>
+            <p class="">DATA</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">内容中心</a>
+            <p class="">CONTENTS</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">赛事中心</a>
+            <p class="">MATCH</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">百态王者</a>
+            <p class="">CULTURE</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">社区互动</a>
+            <p class="">COMMUNITY</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">玩家支持</a>
+            <p class="">PLAYER</p>
+        </li>
+    </ul>
 
+</div>
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-5"></div>
+    <div class="col-3"></div>
+</div>
 </div>
 </body>
 </html>
