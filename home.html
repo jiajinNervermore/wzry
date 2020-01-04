@@ -12,10 +12,21 @@
     <style>
          
         .d1{margin: 0px;}
-        .d2{height: 200px;
+        .d2{display: none;
+            height: 200px;
             background:rgba(0,0,0,0.5);}
+        .d2:hover{
+            display:block;
+        }  
+        .d3{
+            justify-content: center;
+            } 
+          
+        .d4:hover +.d2{
+            display:block;
+        }    
         .a1{
-
+     
             display: block;
             text-decoration:none;
             width: 110px;
@@ -50,18 +61,20 @@
            background-repeat: no-repeat;
            background-size:100%;
        }
-       .d2{
-           display: none;
+       
+      
+       
+       .a2{
+        font-size: 12px;
+        color: #858792;
        }
-       .u1:hover+.d2{
-         display: block;
-       }
+       
     </style>
 </head>
 <body>
        
 <div class="container-fluid  d1 p-0 m-0">
-     
+     <div class="d4">
         <ul class="d-flex list-unstyled  u1 m-0 ">
             <a class="" href=""><img class="pl-4 pt-3" src="img1/logo1.png" alt=""/></a>
                <li class="text-center pb-3 l1">
@@ -98,44 +111,84 @@
             </li>
          </ul>
      </div>
-    <div class="d2 pt-5" >
-     <table border="1px"  align="center" width="800px" class="text-center ">
-        <tr>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍wadw</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-        </tr>
-        <tr>
-              <td><a href="">版本介绍</a></td>
-              <td><a href="">版本介绍wadw</a></td>
-              <td><a href="">版本介绍</a></td>
-              <td><a href="">版本介绍</a></td>
-              <td><a href="">版本介绍</a></td>
-              <td><a href="">版本介绍</a></td>
-          </tr>
-           <tr>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-            <td><a href="">版本介绍</a></td>
-           </tr>
-           <tr>
-                  <td><a href="">版本介绍</a></td>
-                  <td><a href="">版本介绍wadw</a></td>
-                  <td><a href="">版本介绍</a></td>
-                  <td><a href="">版本介绍</a></td>
-                  <td><a href="">版本介绍</a></td>
-                  <td><a href="">版本介绍</a></td>
-           </tr>
-     </table>
+    <div class="d2 " >
+    <!-- 隐藏表格 -->
+      
+         <div class="d-flex d3">
+          <ul class="list-unstyled text-center p-3 px-4 " width="60px">
+            <li><a class="a2" href="">版本介绍dwad</a></li>
+            <li><a class="a2" href="">版本介绍</a></li> 
+            <li><a class="a2" href="">版本介绍</a></li> 
+            <li><a class="a2" href="">版本介绍</a></li> 
+            <li><a class="a2" href="">版本介绍</a></li> 
+            <li><a class="a2" href="">版本介绍</a></li> 
+            <li><a class="a2" href="">版本介绍</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">版本介绍</a></li>
+                <li><a class="a2" href="">版本介绍awd</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">版本介绍</a></li>
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍wad</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">版本介绍</a></li>
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">版本介绍</a></li>
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2"  href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">版本介绍</a></li>
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li> 
+                <li><a class="a2" href="">版本介绍</a></li>  
+          </ul>
+       </div>  
+    </div>
+
+      <div class="row">
+        <!--轮播导航栏1 -->
+        <div class="col-6">
+               
+        </div> 
+        <!--轮播导航栏2  -->
+        <div class="col-4">
+
+        </div>   
+         <!--下载地址  -->
+        <div class="col-2">
+
+        </div>       
+      </div>
+    
     </div> 
 
- </div>
-      
+ </div>  
 </body>
 </html>
