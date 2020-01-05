@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.mycolor {
+  color: #ff0; }
+
+/*变量*/
+p {
+  background: "全国通缉小黄鸭"; }
+
+div {
+  color: #f10215;
+  width: 100px;
+  border: 1px solid #f10215;
+  border-top: 2px solid #f10215;
+  background: #069; }
+
+#content {
+  border: 1px solid #721c24; }
+  #content p {
+    background: #00cccc; }
+    #content p a {
+      text-decoration: none; }
+    #content p b {
+      text-style: normal; }
+  #content div {
+    background: #003333; }
+    #content div ul {
+      list-style: none; }
+      #content div ul li {
+        border: 0; }
+        #content div ul li a {
+          text-decoration: none; }
+        #content div ul li img {
+          outline: 0; }
+
+p {
+  background: #33aaaa;
+  border: 1px solid #ff00ff;
+  border-radius: 50%; }
+
+div {
+  width: 20px;
+  border: 1px solid #ff00ff;
+  border-radius: 50%; }
+
+div {
+  background: -webkit-leaner-gradient(bottom, #ff0, #fff);
+  background: -o-leaner-gradient(bottom, #ff0, #fff);
+  background: -moz-leaner-gradient(bottom, #ff0, #fff);
+  background: -ms-leaner-gradient(bottom, #ff0, #fff); }
+
+.my1, .my2 {
+  color: #721c24;
+  background: #e0a800; }
+
+.my2 {
+  border-color: #c3c3c3; }
+
+div {
+  width: 17.5%;
+  max-width: 2.5%; }
+
+div:before {
+  content: "xiaohuangyagaga";
+  font-family: chiller; }
+
+div:before {
+  background: rgba(2, 2, 2, 0.9);
+  background: #030405;
+  color: #feffff;
+  content: "liangliang ate 90 baozis"; }
+
+div {
+  width: 35px; }
+
+p {
+  width: 5px; }

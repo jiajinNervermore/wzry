@@ -1,0 +1,16 @@
+
+input,img{
+    vertical-align:middle;
+}
+.my_input{
+    border-radius: 0;
+    outline:0;
+
+}
+.my_input:focus{
+    outline: 0;!important;
+    box-shadow: 0;!important;
+}
+.breadcrumb-item+.breadcrumb-item:before{
+    content:"|";
+}

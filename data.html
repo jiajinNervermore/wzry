@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+         
+        .d1{margin: 0px;}
+        .d2{display: none;
+            height: 200px;
+            background:rgba(0,0,0,0.5);}
+        .d2:hover{
+            display:block;
+        }  
+        .d3{
+            justify-content: center;
+            } 
+          
+        .d4:hover +.d2{
+            display:block;
+        }    
+        .a1{
+     
+            display: block;
+            text-decoration:none;
+            width: 110px;
+            height: 64px;
+            padding: 20px 0 0;
+            color: #c9c9dd;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .a1:hover{
+            text-decoration: none;
+            color: #e0a800;
+        }
+        .em{
+            display: block;
+            padding-top: 5px;
+            font-size: 12px;
+            line-height: 16px;
+            color: #858792;
+        }
+        .l1:hover{
+            height: px;
+            border-bottom: 5px solid #e0a800;
+            color: #e0a800;
+        }
+        .u1{background:rgba(0,0,0,0.8);
+            height:84px;
+            width: 100%;
+            clear:both; }
+       body{
+           background: url(img/home/58125873945352.jpg);
+           background-repeat: no-repeat;
+           background-size:100%;
+       }
+       .data_header{
+         height:40px;
+       }
+      
+       
+       .a2{
+        font-size: 14px;
+        color: #F5F5F5;
+       }
+       .a2:hover{
+         color:#e0a800;
+       }
+       .ranking_list{
+        height:500px;width:450px; 
+        display: none;
+       }
+
+    </style>
+</head>
+<body>
+   <div class="data_header">
+      <iframe src="header.html" width="100%" height="40px" scrolling="no" frameborder="0"></iframe>
+   </div>    
+<div class="container-fluid  d1 p-0 m-0">
+     <div class="d4">
+        <ul class="d-flex list-unstyled  u1 m-0 ">
+            <a class="" href=""><img class="pl-4 pt-3" src="img/home/logo1.png" alt=""/></a>
+               <li class="text-center pb-3 l1">
+                   <a class="a1 " href="">官网首页
+                       <p class="em"> HOME</p></a>
+               </li>
+            <li class="text-center pb-3 l1 ">
+                <a class="a1 " href="">游戏资料
+                    <p class="em"> DATA</p></a>
+            </li>
+            <li class="text-center pb-3 l1">
+                <a class="a1 " href="">内容中心
+                    <p class="em"> CONTENTS</p></a>
+            </li>
+            <li class="text-center pb-3 l1 ">
+                <a class="a1 " href="">赛事中心
+                    <p class="em"> MATCH</p></a>
+            </li>
+            <li class="text-center pb-3 l1 ">
+                <a class="a1 " href="">百态王者
+                    <p class="em"> CULTURE</p></a>
+            </li>
+            <li class="text-center pb-3 l1 ">
+                <a class="a1 " href="">社区互助
+                    <p class="em">CONMMUNITY</p></a>
+            </li>
+            <li class="text-center pb-3 l1 ">
+                <a class="a1 " href="">玩家支持
+                    <p class="em">PLAYER</p></a>
+            </li>
+            <li class="text-center pb-3 l1">
+                <a class="a1 " href="">王者主页
+                    <p class="em"> wdawd</p></a>
+            </li>
+         </ul>
+     </div>
+    <div class="d2 " >
+    <!-- 隐藏表格 -->
+      
+         <div class="d-flex d3">
+          <ul class="list-unstyled text-center p-3 px-4 " width="60px">
+            <li><a class="a2" href="">版本介绍</a></li>
+            <li><a class="a2" href="">游戏介绍</a></li> 
+            <li><a class="a2" href="">英雄资料</a></li> 
+            <li><a class="a2" href="">爆料站</a></li> 
+            <li><a class="a2" href="">故事站</a></li> 
+            <li><a class="a2" href="">游戏壁纸</a></li> 
+            <li><a class="a2" href="">模拟战资料库</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">攻略中心</a></li>
+                <li><a class="a2" href="">英雄攻略</a></li> 
+                <li><a class="a2" href="">视频中心</a></li> 
+                <li><a class="a2" href="">开发库素材</a></li> 
+                <li><a class="a2" href="">王者视角</a></li> 
+                <li><a class="a2" href="">作者入驻</a></li> 
+                <li><a class="a2" href="">媒体入驻</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">冬季冠军杯</a></li>
+                <li><a class="a2" href="">KPL</a></li> 
+                <li><a class="a2" class="a2" href="">模拟战冬季</a></li> 
+                <li><a class="a2" href="">KRKPL</a></li> 
+                <li><a class="a2" href="">高校赛</a></li> 
+                <li><a class="a2" href="">城市赛</a></li> 
+                <li><a class="a2" href="">全民赛</a></li>
+                <li><a class="a2" href="">赛事数据</a></li>   
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">荣耀传承</a></li>
+                <li><a class="a2" href="">王者文化站</a></li> 
+                <li><a class="a2" href="">王者音乐听</a></li> 
+                <li><a class="a2" href="">万千世界</a></li> 
+                <li><a class="a2" href="">星光殿堂</a></li> 
+                <li><a class="a2" href="">商户特权</a></li> 
+                <li><a class="a2" href="">无限王者团</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">创意互动营</a></li>
+                <li><a class="a2" href="">王者营地</a></li> 
+                <li><a class="a2"  href="">手Q部落</a></li> 
+                <li><a class="a2" href="">微信圈子</a></li> 
+                <li><a class="a2" href="">官方微博</a></li> 
+                <li><a class="a2" href="">微信公众号</a></li> 
+                <li><a class="a2" href="">手Q订阅号</a></li>
+                <li><a class="a2" href="">同人社区</a></li>  
+          </ul>
+          <ul class="list-unstyled text-center p-3 px-4">
+                <li><a class="a2" href="">成长守护平台</a></li>
+                <li><a class="a2" href="">健康系统</a></li> 
+                <li><a class="a2" href="">对局环境情报站</a></li> 
+                <li><a class="a2" href="">客服专区</a></li> 
+                <li><a class="a2" href="">礼包兑换</a></li> 
+                <li><a class="a2" href="">自助服务</a></li> 
+                  
+          </ul>
+       </div>  
+    </div>
+    <div class="ranking_list no-gutters">
+      <div class="row">
+        <div class="col-12"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </div>
+
+    </div>
+      
+    
+    </div> 
+
+ </div>  
+</body>
+</html>

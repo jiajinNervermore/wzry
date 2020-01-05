@@ -1,0 +1,35 @@
+.product-img1{
+    width:100%;
+}
+.input_box{
+    width:35px;
+}
+.my_gray{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.my_button{
+    width:1.5rem;
+    height: 1.5rem;
+    padding:0;
+    border: 0;outline: 0;
+    font: bold 1rem ºÚÌå;
+    color:#fff;
+}
+.my_input{
+    width:15%;
+    border:0;outline: 0;
+    text-align: center;
+}
+
+.page-item+.page-item{margin-left:0.4rem;}
+.page-link{padding: 0.3rem 0.75rem;
+    background: transparent;border-color: #999;
+}
+.page-link:hover{border-color:#0AA1ED;}
+
+.border-top{
+    border-top-style: dashed;!important;
+}
+.my_button_left,.my_button_right{
+    width:24px;
+}
