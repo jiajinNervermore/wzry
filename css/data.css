@@ -1,0 +1,580 @@
+
+.header_img-logo1{
+   height:40px;width:80px;
+   margin-right: 20px;
+}
+.data_header a{
+   text-decoration: none;
+   color: #464646;
+   font-size: 14px;
+   line-height: 40px;
+}
+.header_li_2 a img{
+   margin-right: 200px;
+}
+.data_img_logo2{
+   width:30px;height:30px;
+   background-image: url(../img/data/sprite.png);
+   background-position: -48px 80px;
+   margin: 0;
+   line-height: 40px;
+   }
+.headers>ul>li:nth-child(4)>span{
+  background-image: url(../img/raiders/banner-1-m.png);
+  background-position: -73px -236px;
+  width: 25px;height:30px;background-repeat: no-repeat;
+  display: inline-block;
+}   
+.data_header{
+   position: relative;
+}    
+   /* 页头部分下拉菜单样式 */
+   /* 下拉菜单的样式 */
+   /* 活动隐藏图片 */
+.headers>ul>li:nth-child(3){
+  display: none;
+  position: absolute;
+  top:0px;left:300px;
+  height: 970px;width:185px;
+  z-index: 3;
+} 
+.headers>ul>li:nth-child(2):hover + li{
+  display: block;
+}
+.headers>ul>li:nth-child(3):hover{
+  display: block;
+}
+.ranking_list{
+  width: 700px;
+  height: 650px;
+  position: absolute;
+  top:40px;right:270px;
+  z-index: 3;
+  background-color: #fff;
+  padding: 10px 30px;
+  display: none;
+}
+/* 排行榜的样式 */
+.game-ranking>a{
+   color:#000;
+}
+.ranking_list li{
+  margin-bottom: 20px;
+}
+.list-left-1,list-middle-1,list-right-1{
+   width:1rem;height: 1rem;
+   background-color:#f10;
+   line-height:1rem;
+   text-align:center;
+   display: inline-block;
+   font-size: 14px;
+   color: #d4d4d4;          
+}
+.list-left-2,list-middle-2,list-right-2{
+   width:1rem;height: 1rem;
+   background-color:#a6afbc;
+   line-height:1rem;
+   text-align:center;
+   display: inline-block;
+   font-size: 14px;
+   color: #d4d4d4;          
+}
+.ranking-score>span:last-child{
+   font-size: 14px;
+   line-height: 14px;
+   display: inline-block;
+}
+.rankings{
+   position: relative;
+   width:200px;height:92px;
+   display: none ;
+}
+/* 排名行鼠标悬停样式 */
+.ranking-score{
+   cursor: default;
+   display: inline;
+}
+.ranking-score:hover{
+   cursor:default;
+}
+/* 图片里数字排行 */
+.rankings>span:first-child{
+   position: absolute;
+}
+/* 页头部分下拉菜单里面显示隐藏预定样式open控制显示隐藏 */
+.open{
+   display: none;
+}
+.newGames>li>div.open+div{
+   display: block;
+}
+.handTours>li>div.open+div{
+   display: block;
+}
+.hotGames>li>div.open+div{
+   display: block;
+}
+.download{
+   position: absolute;
+   height:30px;width:100%;
+   bottom:0;
+   background-color:rgba(68,68,69,0.7);
+   justify-content: space-around;
+}
+.download>a{
+   color:#fff;
+   line-height: 30px;
+}
+/* 鼠标悬停显示下拉菜单 */
+.header_dropdown:hover+.ranking_list{
+  display: block;
+}
+.ranking_list:hover{
+  display: block;
+}
+/* 导航隐藏部分样式 */
+.dropdown2{display: none;          
+   background:rgba(0,0,0,0.5);}
+/* 导航隐藏部分悬停显示 */
+.dropdown2:hover{
+   display:block;
+} 
+/* 导航隐藏部分高度 */
+.dropdown_list{
+   height: 300px;           
+   }
+/* 王者荣耀logo图片 */
+.wzry{
+   margin-left: 50px;
+} 
+/* 导航下拉菜单行距调整 */
+.dropdown_list>ul>li{
+ margin-bottom: 5px;
+ line-height: 25px;
+ display: flex;
+}
+/* 隐藏下拉菜单小图标样式 */
+.dropdown_list>ul:nth-child(1)>li:nth-child(4)>span{
+   width:25px;height:30px;          
+   background-position: -139px -65px;
+   background-image: url(../img/home/index.png);
+   display: inline-block;
+   background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(1)>li:nth-child(5)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(1)>li:nth-child(7)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(2)>li:nth-child(4)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(3)>li:nth-child(3)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(3)>li:nth-child(8)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(4)>li:nth-child(7)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(5)>li:nth-child(1)>span{
+  width:25px;height:30px;          
+  background-position: -139px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(5)>li:nth-child(2)>span{
+  width:25px;height:30px;          
+  background-position: -160px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(6)>li:nth-child(1)>span{
+  width:25px;height:30px;          
+  background-position: -139px -3px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(6)>li:nth-child(2)>span{
+  width:25px;height:30px;          
+  background-position: -138px -34px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.dropdown_list>ul:nth-child(6)>li:nth-child(3)>span{
+  width:25px;height:30px;          
+  background-position: -160px -65px;
+  background-image: url(../img/home/index.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+/* 下拉菜单悬停显示 */
+.data_desc4:hover +.dropdown2{
+   display:block;
+} 
+/* 导航部分样式 */
+.a1{
+
+   display: block;
+   text-decoration:none;
+   width: 110px;
+   height: 64px;
+   padding: 20px 0 0;
+   color: #c9c9dd;
+   font-size: 18px;
+   line-height: 30px;
+}
+/* 导航部分悬停样式 */
+.a1:hover{
+   text-decoration: none;
+   color: #e0a800;
+}
+/* 导航菜单下方英文标识样式 */
+.em{
+   display: block;
+   padding-top: 5px;
+   font-size: 12px;
+   line-height: 16px;
+   color: #858792;
+}
+/* 导航栏Li的样式 */
+.l1:hover{
+   height: px;
+   border-bottom: 5px solid #e0a800;
+   color: #e0a800;
+}
+/* 导航栏整体背景颜色和宽高 */
+.u1{background:rgba(0,0,0,0.8);
+   height:84px;
+   width: 100%;
+   clear:both; }
+/* 页头 */
+.data_home{
+  background: url(../img/home/58125873945352.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+  position: relative;
+  height:600px;width:100%;   
+  justify-content:center;
+}
+/* 导航隐藏下拉菜单下的a标签样式 */
+.dropdown2 a{
+font-size: 14px;
+color: #F5F5F5;
+}
+/* 导航隐藏下拉菜单下的a标签悬停样式 */
+.dropdown2 a:hover{
+color:#e0a800;
+}
+/* 周免英雄栏 */
+/* 周免英雄栏总宽高及其他样式 */
+.weekly{
+  width:1100px;height:110px;
+  position:absolute;
+  bottom:0;
+   left:100px;
+  background:#1a4069;
+}
+/* 周免英雄栏下图片高度 */
+.weekly img{
+  height:65px;
+  border-radius: 5px;
+}
+/* 周免英雄栏大小图切换 */
+
+.weekly-left li>img:last-child{
+  display: none;
+}
+.weekly-left>ul{
+  display: flex;
+}
+.weekly-open{
+  display: none;
+}
+.weekly .weekly-open + img{
+  display: block !important;
+}
+/* 周免英雄栏日期显示样式 */
+.weekly_date{
+  color:#a6afbc;
+  margin-left:1rem;
+  margin-top: 5px;
+  font-size: 14px;
+}
+/* 周免英雄栏下ul布局 */
+.weekly ul{
+  
+  margin-left:1rem;
+  margin-bottom:0;          
+}
+/* 周免英雄栏下li布局 */
+.weekly ul>li{
+  margin-right:0.5rem;
+}
+/* 周免英雄栏下a标签的整体样式*/
+.weekly ul>a{
+  text-decoration: none;
+  top:0.1rem;
+  right:-60px;
+  display: inline;
+  margin-left: 10px;
+  padding-right:35px;
+  font-size: 13px;
+  width: 5px;
+}
+/* 周免英雄栏右边登录部分样式*/
+.weekly-right{
+  background:#16507a;
+  height: 110px;
+}
+/* 登录部分样式*/
+.user_head{
+  left:0.7rem;
+  width: 100px;height:120px;
+  background-image: url(../img/home/spr.png);
+  background-position:-112px 191px;
+  position: absolute;
+  bottom: 0 ;
+}
+/* 周免英雄栏右边登录部分下p标签样式*/
+.weekly-right>p{
+  
+  font-size: 16px;
+  color:#a6afbc;
+  position: absolute;
+  top:50px;
+  right:100px;
+}
+/* 周免英雄栏右边登录部分a标签样式*/
+.weekly-right>a{
+position: absolute;
+color:#a6afbc;
+top:50px;
+text-decoration: none;
+}
+/* 登录部分样式*/
+.data_login{
+  position: absolute;
+  right:60px;!important
+}
+/* 英雄介绍 */
+.intro{
+  max-width:100%;
+  background: #dddde8;
+}
+.intro_1 ul{
+margin:3rem 5px 3rem 3rem; 
+}
+.intro_img1{
+  background-image: url(../img/data/sprite.png);
+  height: 30px;
+  width:30px;          
+}
+/* 英雄介绍 */
+.wz_home_data{          
+  color:#363636;
+  text-decoration:underline;
+}
+.wz_home_data:hover{
+  color:#363636;
+}
+.intro_2{
+  margin-left:3rem;
+}
+.intro_2>span{
+  background-image: url(../img/data/icon_hero.png);
+  width:30px;height:22px; 
+  background-position: 0 0;
+  margin-top: 0;
+  margin-right: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.intro>div:nth-child(3)>ul{
+  margin-left: 3rem;
+}
+.intro>div:nth-child(3)>ul>li{
+  display: block;
+  height: 32px;width:396px;
+  border-bottom: 3px solid #d4d4d4;
+  text-align: center;
+  color:#4b4b4b;
+}
+.intro>div:nth-child(3)>ul>li>a{
+color:#4b4b4b;
+text-decoration: none; 
+}
+.intro>div:nth-child(3)>ul>li:nth-child(1)>a{
+color:#3589dd;
+text-decoration: none; 
+
+}
+.intro>div:nth-child(3)>ul>li:nth-child(1){
+border-bottom: 3px solid #3589dd;
+}
+.herolist-types {
+   background-color: #EFEFEF;
+   border-radius: 5px;
+   color: #686869;
+}
+/* 英雄列表查询导航 */
+.types-left {
+   float: left;
+   width: 80px;
+   height: 106px;
+   text-align: center;
+   background-color: #2C88E2;
+   color: #fff;
+   border-radius: 5px 0 0 5px;
+   
+}
+.types-left li{
+   display: block;
+   height: 52px;
+   line-height: 52px;
+   font-size: 16px;
+   color:#fff;
+}
+/* 英雄列表 */
+.heros_list{
+border: 2px solid #E8E8E8;
+margin-bottom: 50px;
+padding: 35px 70px;
+border-top: 0;
+position: relative;
+background:#eee;
+max-width: 100%;
+}
+/* 英雄列表 */
+.heroslist_content{
+margin-bottom: 50px;
+padding-top: 35px;
+border-top: 0;
+position: relative;
+max-width: 1190px;
+ 
+}
+.heroslist_content li{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+}
+.heroslist_content img{
+width: 83px;
+height: 83px;
+border: 2px solid #258DF2;
+border-radius: 10px 0 10px 0;
+}
+/* 英雄列表下ul */
+.heroslist_content ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-start;
+  margin-bottom: 50px;
+}
+.heroslist_content ul:last-child>li{
+  margin-bottom: 40px;
+   margin-right: 40px;
+}
+/* 单选按钮的圆圈 */
+.ms-radio {
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   margin-right: 7px;
+   border: 1px solid #B3B3B3;
+   border-radius: 50px;
+}
+/* 选项行的宽高 */
+.types-ms {
+   max-width: 890px;           
+   padding: 16px 0;
+   height: 20px !important;
+   line-height: 21px;
+   justify-content: start;
+   display: flex;
+}
+.types-ms ul,.types-ms li{
+   display: flex;
+}       
+.types-ms li{
+  line-height: 20px;
+   padding-left: 15px;
+   min-width: 90px;
+   font-size: 14px;
+   cursor: pointer;
+   height: 100% !important;
+}
+.types-ms li span:first-child{
+   line-height: 20px; 
+   position: relative;          
+}
+.types-ms li span:last-child{
+   line-height: 20px; 
+ 
+}
+/* 英雄搜索栏 */
+.hero-search{
+  position: absolute;
+  top: 86px;
+   right: 120px;
+   box-sizing: border-box; 
+   border: 1px solid #D2D2D2;
+}
+.hero-search input{
+   width:242px;height:44px;
+   padding: 10px;   
+   border: none;
+   outline: medium;
+   background-color:#EFEFEF ;
+}
+.hero-search a{
+  border-left: 1px solid #d5d5d5;
+  width:50px;height:22px;float: right;
+  margin-top: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* 单选按钮的选中样式 */
+.ms-radio .i {
+   display: inline-block;
+   position: absolute;
+   top: 3px;
+   left: 3px;
+   width: 12px;
+   height: 12px;
+   background-color: none;
+   border-radius: 50px;
+}
